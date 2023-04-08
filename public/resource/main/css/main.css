@@ -1,0 +1,103 @@
+/* main bg 22,26,30*/
+/*#41B883 vue js color*/
+/*color: var(--blue);*/
+:root {
+  --main-clr: #e84118;
+  --green-clr: #8ac832;
+  --main-bg-clr: #14171a;
+  --main-bor-clr: #393a3b;
+  --main-font-fml: 'consolas';
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.dd_class{
+    width: 100%;
+    overflow: hidden;
+    word-break: break-all;
+    padding: 5px !important;
+    margin: 0 !important;
+}
+
+pre {
+    color: #e84118 !important;
+    font-weight: bold;
+    font-family: consolas;   
+}
+
+li{
+    list-style: none !important;
+}
+
+textarea{
+    resize: none !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+    outline: none;
+}
+
+body {
+    cursor: url('../../../files/system/content/cursor.png'), default;
+    background-color: #14171a !important;
+    color: rgb(176, 179, 184) !important;
+    font-family: consolas !important;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0 auto;
+    transition: all .5s linear;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 1px;
+}
+
+body::-webkit-scrollbar-track {
+    background-image: linear-gradient(to right top, #000000, #100e0e, #1a1817, #22211e, #292a26);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right top, #ffbc00, #ff9a08, #ff7624, #ff4c39, #ff004e);
+    outline: 1px solid slategrey;
+}
+
+body ::selection {
+    background: #14171a !important;
+    color: var(--green-clr);
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+.click_block {
+    cursor: none !important;
+    pointer-events: none;
+}
+
+#wrapper {
+    max-width: 2500px;
+    margin: 0 auto;
+}
+
+.wrap{
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    min-height: 100vh;
+    min-width: 100%;
+}
+

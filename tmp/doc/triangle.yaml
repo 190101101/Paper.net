@@ -1,0 +1,7 @@
+$db->tsql('SELECT * FROM article WHERE article_id = ?', [10]);
+$db->t1('code', 2, 1);
+$this->db->t1where('image', 'image_id < ?', [$blog->blog_id]);
+$this->db->t1where('image', "image_name LIKE ?", ["%$variable%"]);
+$this->db->t1where('image', 'image_id < ?', [$blog->blog_id], false, false, ['user_id']);
+$db->t1wherein('code', 'id', $data, 2);
+$this->db->t1count('image', 'image_id < ?', [$blog->blog_id]);

@@ -1,0 +1,19 @@
+{
+    "autoload":{
+        "psr-4":{
+            "core\\":"core/",
+            "modulus\\":"modulus/",
+            "library\\":"library/",
+            "Pattern\\":"Pattern/",
+            "middleware\\":"middleware/"
+        },
+        "classmap":[
+            "core/",
+            "modulus/",
+            "library/",
+            "Pattern/",
+            "middleware/"
+        ]
+    },
+    "require": {}
+}
